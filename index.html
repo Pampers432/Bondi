@@ -6,47 +6,29 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
     <div class="head">
         <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container-fluid">
+            <div class="container">
                 <a class="navbar-brand" href="#">
-                    <img src="images/Logo.png" alt="" >
-                  </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarScroll">
-                <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>                   
-                </ul>
-                <form class="d-flex align-items-center">
-                    <img src="images/separator.png" alt="Separator" class="separator">
-                    <button type="submit" class="search-btn">
-                        <img src="images/Search Icon.png" alt="Search">
-                    </button>
-                    <button class="btn bg-danger text-warning px-5 rounded-pill" type="submit">Login</button>
-                </form>                                            
-              </div> 
+                    <img src="images/Logo.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                    </ul>
+                </div>
             </div>
-          </nav>
+        </nav>
+        
 
           <div class="text-container d-flex flex-column align-items-center text-white">
             <h1>Taste the Creativity</h1>
@@ -55,21 +37,45 @@
         </div>              
     </div>
 
-    <div class="main1">
-        <div class="container" style="text-align: center; padding-top: 10vh;">
-            <img src="images/Composite Path.png" alt="|TT|">
-            <h1>We are good at</h1>
-            <p style="opacity: 50%;">SOME OF THEASE STUFF UNDER</p>
-            <div class="line"></div>
+    <div class="container-fluid main1 d-flex align-items-center justify-content-center">
+        <div class="text-center mt-5">
+            <img src="images/Composite Path.png" alt="|TT|" class="img-fluid">
+            <h1 class="fw-bold">We are good at</h1>
+            <p class="opacity-50">SOME OF THESE STUFF UNDER</p>
+            <div class="line mx-auto mb-4"></div>
+    
+            <div class="container mt-5">
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <img src="images/number1.png" alt="" class="img-fluid">
+                        <h2 class="selectText">graphic design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet eaque debitis ab dolorem quae labore temporibus excepturi, dolorum id adipisci distinctio quibusdam.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/number2.png" alt="" class="img-fluid">
+                        <h2 class="selectText">web design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet eaque debitis ab dolorem quae labore temporibus excepturi, dolorum id adipisci distinctio quibusdam.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/number3.png" alt="" class="img-fluid">
+                        <h2 class="selectText">app design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet eaque debitis ab dolorem quae labore temporibus excepturi, dolorum id adipisci distinctio quibusdam.</p>
+                    </div>
+                </div>
+            </div>
         </div>
+    </div>    
+
+    <div class="main2">
+        
     </div>
 
 
 
 
 
-
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script> -->
 </body>
 </html>

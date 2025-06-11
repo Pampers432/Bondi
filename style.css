@@ -12,7 +12,7 @@ body {
 }
 
 .head{
-    height: 500px;
+    height: 55vh;
     background-color: rgb(23, 23, 86);
 }
 
@@ -48,6 +48,7 @@ body {
 .text-container {
     height: 80%;
     justify-content: center;
+    text-align: center;
 }
 
 .text-container h1{
@@ -59,22 +60,30 @@ body {
 ============================================*/
 
 .main1 {
-    height: 100vh;
+    min-height: 70vh;
 }
 
 :root {
-    --color2: rgb(0, 198, 191);
-}
-
-.centered-section {
-  display: grid;
-  place-items: center;
-  height: 30%;
+    --color1: rgb(0, 198, 191);
+    --textColor1: rgb(255, 197, 1);
 }
 
 .line {
     height: 3px;
     width: 10%;
-    background-color: var(--color2);
-    margin: 0 auto;
+    background-color: var(--color1);
+}
+
+.selectText {
+    text-transform: uppercase;
+    color: var(--textColor1);
+    padding-top: 3vh;
+}
+
+
+/* Третья секция 
+============================================*/
+.main2{
+    height: 100vh;
+    background-color: #eff7fa;
 }
