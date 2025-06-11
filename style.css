@@ -12,7 +12,7 @@ body {
 }
 
 .head{
-    height: 500px;
+    height: 60vh;
     background-color: rgb(23, 23, 86);
 }
 
@@ -63,7 +63,8 @@ body {
 }
 
 :root {
-    --color2: rgb(0, 198, 191);
+    --color1: rgb(0, 198, 191);
+    --textColor1: rgb(255, 197, 1);
 }
 
 .centered-section {
@@ -75,6 +76,12 @@ body {
 .line {
     height: 3px;
     width: 10%;
-    background-color: var(--color2);
+    background-color: var(--color1);
     margin: 0 auto;
+}
+
+.selectText {
+    text-transform: uppercase;
+    color: var(--textColor1);
+    padding-top: 5vh;
 }
