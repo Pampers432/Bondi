@@ -53,3 +53,11 @@ body {
 .text-container h1{
     font-size: 70px;
 }
+
+
+
+.centered-section {
+  display: grid;
+  place-items: center;
+  height: 30%;
+}
