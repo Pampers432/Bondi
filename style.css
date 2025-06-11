@@ -27,7 +27,7 @@ body {
 }
 
 .navbar-nav .nav-item:first-child .nav-link {
-    color: rgb(68, 153, 156) !important; 
+    color: rgb(0, 198, 191) !important; 
 }
 
 .search-btn {
@@ -55,9 +55,26 @@ body {
 }
 
 
+/* Вторая секция 
+============================================*/
+
+.main1 {
+    height: 100vh;
+}
+
+:root {
+    --color2: rgb(0, 198, 191);
+}
 
 .centered-section {
   display: grid;
   place-items: center;
   height: 30%;
+}
+
+.line {
+    height: 3px;
+    width: 10%;
+    background-color: var(--color2);
+    margin: 0 auto;
 }
