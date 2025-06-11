@@ -85,3 +85,11 @@ body {
     color: var(--textColor1);
     padding-top: 5vh;
 }
+
+
+/* Третья секция 
+============================================*/
+.main2{
+    height: 100vh;
+    background-color: #eff7fa;
+}
