@@ -9,14 +9,16 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    position: relative;
 }
 
-.head{
-    height: 55vh;
+.head {
+    min-height: 55vh;
     background-color: rgb(23, 23, 86);
+    padding-bottom: 20px;
 }
 
-.navbar{
+.navbar {
     padding-top: 5px;
     justify-self: center;
     width: 80%;
@@ -36,6 +38,8 @@ body {
     height: 24px;
     cursor: pointer; 
     margin-right: 10px;
+    border: none;
+    padding: 0;
 }
 
 .separator {
@@ -46,13 +50,63 @@ body {
 }
 
 .text-container {
-    height: 80%;
+    height: 40vh;
     justify-content: center;
     text-align: center;
 }
 
-.text-container h1{
+.text-container h1 {
     font-size: 70px;
+}
+
+/* Мобильное меню */
+@media (max-width: 992px) {
+    .navbar-collapse {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: rgb(23, 23, 86);
+        z-index: 1000;
+        padding: 15px;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    }
+    
+    .navbar-nav {
+        margin-bottom: 15px;
+    }
+    
+    .nav-link {
+        padding: 10px 0 !important;
+    }
+    
+    .text-container h1 {
+        font-size: 40px;
+        margin-top: 20px;
+    }
+    
+    .head {
+        padding-bottom: 50px;
+    }
+    
+    .text-container {
+        padding-top: 30px;
+    }
+}
+
+@media (max-width: 576px) {
+    .text-container h1 {
+        font-size: 32px;
+    }
+    
+    .text-container p {
+        font-size: 18px;
+    }
+    
+    .btn {
+        padding: 8px 20px;
+        font-size: 16px;
+    }
 }
 
 
@@ -182,16 +236,58 @@ body {
 .main3 p {
     opacity: 50%;
 }
-.main3 button {
-    margin-left: 12%;
-}
 
+.main3 .row{
+    margin-bottom: 3vh;
+}
 
 /* Пятая секция
 ============================================ */
 .main4 {
-    height: 100vh;
+    min-height: 80vh; /* Вместо height: 100vh */
+    background-color: #eff7fa;
+    padding-bottom: 20px;
 }
+
+.main4 h1 {
+    margin-top: 20px;
+    color: rgb(255, 232, 118);
+}
+
+.main4 p {
+    color: gray;
+    text-align: center;
+}
+
+.character-card {
+    width: 250px;
+    height: 400px;
+    background: white;
+    margin: 20px auto; /* Авто-отступы по горизонтали центрируют элемент */
+}
+
+
+.character-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.character-name {
+    font-size: 22px;
+    background-color: #33d1cc;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-box {
+    padding: 15px;
+    font-size: 16px;
+    color: #555;
+}
+
 
 
 /* Шестая-седьмая секция
