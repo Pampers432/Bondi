@@ -194,7 +194,7 @@ body {
 }
 
 
-/* Шестая-седьмая секцияи
+/* Шестая-седьмая секция
 ============================================*/
 .main5 {
     height: 30vh;
@@ -202,5 +202,38 @@ body {
 
 .main6 {
     height: 55vh;
+    background-color: rgb(23, 23, 86);
+}
+
+
+/* Восьмая секция
+============================================*/
+.main7 {
+    height: 100vh;
+}
+
+
+/* Девятая секция
+============================================*/
+.main8 {
+    height: 15vh;
+    background-color: var(--textColor1);
+}
+
+.main8 input {
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-bottom: 1px solid white;
+}
+
+.main8 input::placeholder{
+    color: white;
+}
+
+
+/* Десятая секция (Футтер)
+============================================*/
+footer {
+    height: 100vh;
     background-color: rgb(23, 23, 86);
 }
