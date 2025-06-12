@@ -9,14 +9,16 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    position: relative;
 }
 
-.head{
-    height: 55vh;
+.head {
+    min-height: 55vh;
     background-color: rgb(23, 23, 86);
+    padding-bottom: 20px;
 }
 
-.navbar{
+.navbar {
     padding-top: 5px;
     justify-self: center;
     width: 80%;
@@ -36,6 +38,8 @@ body {
     height: 24px;
     cursor: pointer; 
     margin-right: 10px;
+    border: none;
+    padding: 0;
 }
 
 .separator {
@@ -51,8 +55,58 @@ body {
     text-align: center;
 }
 
-.text-container h1{
+.text-container h1 {
     font-size: 70px;
+}
+
+/* Мобильное меню */
+@media (max-width: 992px) {
+    .navbar-collapse {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: rgb(23, 23, 86);
+        z-index: 1000;
+        padding: 15px;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    }
+    
+    .navbar-nav {
+        margin-bottom: 15px;
+    }
+    
+    .nav-link {
+        padding: 10px 0 !important;
+    }
+    
+    .text-container h1 {
+        font-size: 40px;
+        margin-top: 20px;
+    }
+    
+    .head {
+        padding-bottom: 50px;
+    }
+    
+    .text-container {
+        padding-top: 30px;
+    }
+}
+
+@media (max-width: 576px) {
+    .text-container h1 {
+        font-size: 32px;
+    }
+    
+    .text-container p {
+        font-size: 18px;
+    }
+    
+    .btn {
+        padding: 8px 20px;
+        font-size: 16px;
+    }
 }
 
 
