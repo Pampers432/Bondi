@@ -87,3 +87,16 @@ body {
     height: 100vh;
     background-color: #eff7fa;
 }
+
+
+/* Четвёртая секция
+============================================*/
+.main3 {
+    height: 100vh;
+}
+.main3 p {
+    opacity: 50%;
+}
+.main3 button {
+    margin-left: 12%;
+}
