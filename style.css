@@ -234,6 +234,15 @@ body {
 /* Десятая секция (Футтер)
 ============================================*/
 footer {
-    height: 100vh;
+    height: 70vh;
     background-color: rgb(23, 23, 86);
+}
+
+footer p, a {
+    opacity: 75%;
+    color: white !important;
+}
+
+.colorChange {
+    color: rgb(0, 198, 191);
 }
