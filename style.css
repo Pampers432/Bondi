@@ -223,16 +223,13 @@ body {
 .title-line {
     width: 50px;
     height: 2px;
-    background-color: #dee2e6;
+    background-color: #2a85e0;
     margin: 20px auto;
 }
 
 
 /* Четвёртая секция
 ============================================*/
-.main3 {
-    height: 100vh;
-}
 .main3 p {
     opacity: 50%;
 }
@@ -260,7 +257,7 @@ body {
 }
 
 .character-card {
-    width: 250px;
+    width: 270px;
     height: 400px;
     background: white;
     margin: 20px auto; /* Авто-отступы по горизонтали центрируют элемент */
@@ -304,8 +301,11 @@ body {
 
 /* Восьмая секция
 ============================================*/
-.main7 {
-    height: 100vh;
+
+.divider{
+    background-color: #eff7fa;
+    height: 150px;
+    margin-bottom: 10px;
 }
 
 
